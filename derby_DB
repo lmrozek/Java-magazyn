@@ -1,0 +1,8 @@
+CREATE TABLE towary (
+  id INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY (START WITH 0, INCREMENT BY 1),
+  nazwa        VARCHAR(255),
+  opis    	VARCHAR(255),
+  cena	     DECIMAL(10, 2),
+  ilosc        INT,
+  kategoria   VARCHAR(255)
+);
