@@ -1,0 +1,37 @@
+body{
+    font-family: arial,sans-serif;
+    background-color: beige;
+    margin-left: 50px;
+}
+menu{
+    padding-bottom: 70px;
+}
+menu a{
+    display: block;
+    width: 220px;
+    background-color: #FF4500;
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+    height: 35px;
+    border-radius: 8px;
+    padding-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(212, 224, 36, 1);
+}
+table {
+    border-collapse: collapse;
+}
+td{
+    border: solid black 1px;
+}
+input{
+    margin-bottom: 10px;
+}
+.err{
+    color: red;
+}
+.novisible td{
+    border-style: hidden;
+}
